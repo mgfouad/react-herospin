@@ -1,0 +1,12 @@
+.heroListing {
+  margin: 20px 0;
+  padding: 0 !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  > .heroCard {
+    min-width: calc(25% - 20px);
+    margin: 10px;
+    flex: 0;
+  }
+}
